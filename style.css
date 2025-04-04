@@ -1,0 +1,229 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 1rem;
+  background-color: #111;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav li a:hover {
+  color: #f8a017;
+}
+
+main section h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+  color: #222;
+}
+
+main section p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 auto 2rem;
+  max-width: 800px;
+}
+
+#about-me {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  position: relative;
+}
+
+#about-me .cta {
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+#about-me .cta a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #f8a017;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#about-me .cta a:hover {
+  background-color: #e6950f;
+}
+
+#about-me .profile-image {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+#about-me .profile-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#about-me .profile-info {
+  flex: 2 1 500px;
+  text-align: center;
+}
+
+#about-me .profile-info ul {
+  padding: 0;
+  list-style: none;
+}
+
+#skills,
+#education-work-experience,
+#work-experience {
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+#about-me h2,
+#skills h2,
+#education-work-experience h2,
+#work-experience h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+#about-me p,
+#skills ul,
+#education-work-experience ul,
+#work-experience ul {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+#skills ul,
+#education-work-experience ul,
+#work-experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li,
+#education-work-experience li,
+#work-experience li {
+  margin-bottom: 0.8rem;
+}
+
+#skills li strong,
+#education-work-experience li strong,
+#work-experience li strong {
+  color: #f8a017;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.profile-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.profile-info p {
+  margin-bottom: 1rem;
+}
+
+.personal-info li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.personal-info li strong {
+  color: #555;
+}
+
+.contact-form {
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 0.8rem 1.5rem;
+  background-color: #f8a017;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e6950f;
+}
